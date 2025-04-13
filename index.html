@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Card with User Info</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+      <div
+        class="max-w-md w-full bg-white rounded-xl shadow-md overflow-hidden"
+      >
+        <!-- Video Section -->
+        <div class="w-full aspect-video bg-black">
+          <!-- Replace with your actual video element -->
+          <video class="w-full h-full object-cover" controls>
+            <source src="./lv_0_20250414021309.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- User Info Section -->
+        <div class="p-4">
+          <!-- First User Info Line -->
+          <div class="flex justify-between items-center mb-2">
+            <div class="flex flex-col items-start space-x-2">
+              <span class="font-semibold text-gray-800">Name : Nabila</span>
+              <span class="text-sm text-gray-600">Age : 16 years</span>
+              <p class="text-sm text-gray-600">Class : 10th</p>
+              <p class="text-sm text-gray-600">Ht username : ha_nabiila</p>
+              <p class="text-sm text-gray-600">
+                Permission :
+                <button
+                  class="px-2 rounded-md py-1 bg-green-500 text-white font-bold"
+                >
+                  Yes
+                </button>
+              </p>
+            </div>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded"
+              >Girl Info</span
+            >
+          </div>
+
+          <!-- Second User Info Line -->
+          <div class="flex justify-between items-center mb-2">
+            <div class="flex flex-col items-start space-x-2">
+              <span class="font-semibold text-gray-800"
+                >Name : Muhammad bilal</span
+              >
+              <span class="text-sm text-gray-600">Age : 17 years</span>
+              <p class="text-sm text-gray-600">Class : 11th science</p>
+              <p class="text-sm text-gray-600">Location : Peshawar,Pakistan</p>
+              <p class="text-sm text-gray-600">
+                Ht username : ni_muhammadkhan2
+              </p>
+              <p class="text-sm text-gray-600">
+                Permission :
+                <button
+                  class="px-2 rounded-md py-1 bg-green-500 text-white font-bold"
+                >
+                  Yes
+                </button>
+              </p>
+            </div>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded"
+              >Boy Info</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-xl text-red-500 font-bold text-center">
+      WARNING : I published the video with permission from both parties.
+    </p>
+    <p class="text-base text-center">&copy;2025 All Right Reserved</p>
+  </body>
+</html>
